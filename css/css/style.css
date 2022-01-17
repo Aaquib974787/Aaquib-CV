@@ -1,0 +1,53 @@
+body{
+    background-color:lightgray;
+    border-style: solid;
+}
+h1
+{
+    text-shadow: 2px 2px red;
+}
+h2
+{
+    color:black;
+}
+h3
+{
+    color: blue;
+}
+h4
+{
+    text-shadow: 2px 2px 5px red;
+}
+
+image :hover{
+    background-color: gold;
+}
+
+hr
+{
+    background-color:black;
+    border-style: none;
+    border-color: white;
+    border-width: 5px;
+    border-top-style: double;
+    width: 100%;
+}   
+
+
+.button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+
+  <button>Default Button</button>
+<a href="#" class="button">Link Button</a>
+<button class="button">Button</button>
+<input type="button" class="button" value="Input Button">
